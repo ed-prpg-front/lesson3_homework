@@ -1,0 +1,78 @@
+/* Обнуляющие стили */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+li{
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img{
+vertical-align: top;
+}
+
+/* селектор тэга */
+p {
+   color: red;
+}
+p {
+   color: indianred;
+}
+div{
+   color: royalblue;
+}
+span {
+   color: green;
+}
+/* селектор Класса */
+.navigation {
+   color:lightblue;
+}
+/* Селектор идентификатора */
+#priem {
+   color: rgb(2, 23, 211);
+}
+.statia {
+   color: lightgreen;
+}
+/* Комбинация селекторов классов */
+.statia.paragraph {
+   color:rgb(16, 1, 31);
+}
+.paragraph {
+   color: rgb(114, 175, 64);
+}
+.avtor {
+   color:lime;
+}
+/* Комбинация селекторов */
+span.avtor {
+   color: mediumorchid;
+}
+.fon {
+   color:yellow
+}
+.nedostatki .fon {
+   color:yellowgreen;
+}
+.avtor>span {
+   color: whitesmoke;
+}
